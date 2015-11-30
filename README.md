@@ -53,9 +53,9 @@ Node.js Hello World on CentOS using [docker][].
 
     It should print `Hello World` to the console.
     
-    If you use Boot2Docker on OS X, the port is actually mapped to the Docker host VM, and you should use the following command:
+    If you use Docker on OS X, the port is actually mapped to the Docker host VM, and you should use the following command:
     
-        curl $(boot2docker ip):<port>
+        curl `docker-machine $DOCKER_MACHINE_NAME ip`:<port>
 
 ## Acknowledgements
 
